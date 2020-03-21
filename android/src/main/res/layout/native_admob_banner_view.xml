@@ -1,17 +1,17 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="50dp">
+    android:layout_height="100dp">
 
     <com.google.android.gms.ads.formats.UnifiedNativeAdView
         android:id="@+id/ad_view"
         android:background="@android:color/transparent"
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:layout_height="100dp">
 
         <LinearLayout
             android:background="@android:color/transparent"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="100dp"
             android:orientation="vertical">
 
             <TextView
@@ -30,7 +30,7 @@
             <com.google.android.gms.ads.formats.MediaView
                 android:id="@+id/ad_media"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="100dp"
                 android:layout_weight="1"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
@@ -38,14 +38,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="100dp"
                 android:layout_weight="0"
                 android:orientation="vertical"
                 android:paddingTop="3dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="100dp"
                     android:orientation="horizontal">
 
                     <ImageView
