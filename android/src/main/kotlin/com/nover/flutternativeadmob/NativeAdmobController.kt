@@ -71,7 +71,7 @@ class NativeAdmobController(
 
   private fun loadAd() {
     channel.invokeMethod(LoadState.loading.toString(), null)
-    adLoader?.loadAd(AdRequest.Builder().build())
+    adLoader?.loadAd(AdRequest.Builder().addTestDevice("33BE2250B43518CCDA7DE426D04EE231").build())
   }
 
   private fun invokeLoadCompleted() {
